@@ -32,8 +32,8 @@ maupun base untuk dikembangkan lagi.
 ## 📦 Instalasi
 
 ```bash
-git clone <url-repo-ini> botsw
-cd botsw
+git clone https://github.com/XLawXD0/kageno-sw
+cd kageno-sw
 npm install
 ```
 
@@ -70,20 +70,16 @@ Semua pengaturan ada di satu file `settings.js` (tidak memakai `.env`):
 | --- | --- |
 | `BOT_SESSION_NAME` | Nama folder sesi bot utama |
 | `BOT_NUMBER_OWNER` | Nomor WA owner, format `628xxxxxxxxxx` |
-| `BOT_OWNER_NAME` | Nama owner (ditampilkan di beberapa pesan) |
 | `BOT_NUMBER_PAIR` | Nomor pairing otomatis; kosong = ditanya di konsol |
 | `BOT_PREFIX` | Prefix command (bawaan `.`) |
+| `BOT_LOGGER_LEVEL` | Level log: `silent` / `info` / `debug` |
 | `BOT_REACT_STATUS` | React emoji ke status orang lain (`true`/`false`) |
 | `BOT_SAVE_STATUS` | Simpan status yang lewat ke data lokal |
-| `BOT_LOG_MESSAGE` | Log semua pesan masuk ke konsol |
-| `BOT_LOGGER_LEVEL` | Level log: `silent` / `info` / `debug` |
 | `SCRLXRD_API_KEY` | API key layanan downloader (opsional) |
-| `NEOXR_APIKEY` | API key Neoxr (opsional) |
-| `IYANAPI_KEY` | API key Iyan API (opsional) |
 | `TELEGRAM_TOKEN` / `TELEGRAM_CHAT_ID` | Untuk fitur forward manual & stiker Telegram (opsional) |
 
 Sebagian fitur downloader membutuhkan `yt-dlp` dan `ffmpeg` terpasang di
-sistem (atau arahkan `YTDLP_PATH` di `settings.js`).
+sistem.
 
 ## 🗂️ Struktur Folder
 
@@ -162,4 +158,3 @@ Contoh lengkap ada di command `.tombol`.
 
 MIT — silakan dipakai dan dikembangkan. Kredit ke penulis asli sangat
 dihargai.
-# kageno-sw
