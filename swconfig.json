@@ -1,0 +1,21 @@
+{
+  "autoread": true,
+  "autoreact": false,
+  "random_emoji": false,
+  "emoji_pool": [
+    "❤️",
+    "😍",
+    "🔥",
+    "👍",
+    "😮",
+    "🥰",
+    "💯",
+    "👏",
+    "😎",
+    "🎉"
+  ],
+  "autoreply": false,
+  "reply_text": "hai",
+  "react_text": "SAYA | AKAN | LAWAN",
+  "uptimebio": false
+}

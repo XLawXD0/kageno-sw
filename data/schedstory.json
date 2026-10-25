@@ -1,0 +1,13 @@
+{
+  "enabled": false,
+  "times": [
+    "07:00",
+    "12:00",
+    "18:00"
+  ],
+  "queue": [],
+  "index": 0,
+  "caption": "",
+  "posted": {},
+  "lastError": ""
+}
