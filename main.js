@@ -1,14 +1,5 @@
 'use strict';
 
-// ============================================================
-// main.js — Koneksi WhatsApp UTAMA (zapo-js-mod lewat adapter).
-//
-// Bot ini FULL WhatsApp: pairing & semua perintah lewat WhatsApp.
-// Telegram TIDAK lagi menjadi interface bot — modul Telegram hanya
-// dipakai untuk MENGIRIM forward pesan (helper/telegram.js,
-// helper/forward.js).
-// ============================================================
-
 import fs from 'fs';
 import path from 'path';
 import pino from 'pino';
