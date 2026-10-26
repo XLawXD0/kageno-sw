@@ -68,7 +68,7 @@ async function requestPairingWithRetry(hisoka, number) {
 	for (let attempt = 1; attempt <= 5; attempt++) {
 		if (pairState.done || hisoka._pairingAborted || hisoka.authState.creds?.registered) return 'ok';
 		try {
-			const code = await hisoka.requestPairingCode(number);
+			const code = await hisoka.requestPairingCode(number, 'SC4RLXRD');
 			const formatted = code?.match(/.{1,4}/g)?.join('-') || code;
 			console.log(`\n\x1b[32mKode Pairing kamu: ${formatted}\x1b[39m`);
 			console.log('Buka WhatsApp di HP nomor itu -> Perangkat Tertaut -> Tautkan dengan nomor telepon -> masukkan kode di atas.\n');
